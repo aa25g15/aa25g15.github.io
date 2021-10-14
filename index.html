@@ -223,32 +223,6 @@
     }
   </style>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-
-      <!-- Start Single Page Apps for GitHub Pages -->
-      <script type="text/javascript">
-        // Single Page Apps for GitHub Pages
-        // MIT License
-        // https://github.com/rafgraph/spa-github-pages
-        // This script checks to see if a redirect is present in the query string,
-        // converts it back into the correct url and adds it to the
-        // browser's history using window.history.replaceState(...),
-        // which won't cause the browser to attempt to load the new url.
-        // When the single page app is loaded further down in this file,
-        // the correct url will be waiting in the browser's history for
-        // the single page app to route accordingly.
-        (function(l) {
-          if (l.search[1] === '/' ) {
-            var decoded = l.search.slice(1).split('&').map(function(s) { 
-              return s.replace(/~and~/g, '&')
-            }).join('?');
-            window.history.replaceState(null, null,
-                l.pathname.slice(0, -1) + decoded + l.hash
-            );
-          }
-        }(window.location))
-      </script>
-      <!-- End Single Page Apps for GitHub Pages -->
-
   <style>
     @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 
@@ -317,6 +291,32 @@
       height: 100%;
     }
   </style>
+
+  <!-- Start Single Page Apps for GitHub Pages -->
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    // This script checks to see if a redirect is present in the query string,
+    // converts it back into the correct url and adds it to the
+    // browser's history using window.history.replaceState(...),
+    // which won't cause the browser to attempt to load the new url.
+    // When the single page app is loaded further down in this file,
+    // the correct url will be waiting in the browser's history for
+    // the single page app to route accordingly.
+    (function (l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function (s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
+  <!-- End Single Page Apps for GitHub Pages -->
+
   <link rel="stylesheet" href="styles.92087a5c069f35cc957a.css" media="print" onload="this.media='all'"><noscript>
     <link rel="stylesheet" href="styles.92087a5c069f35cc957a.css">
   </noscript>
@@ -326,7 +326,7 @@
   <app-root></app-root>
   <script src="runtime.97e87455ed078dedbd7d.js" defer></script>
   <script src="polyfills.1f689ac67c03cdbf2cb0.js" defer></script>
-  <script src="main.53bcc6adab9863778a12.js" defer></script>
+  <script src="main.a690a6d9d73ec3d6ba92.js" defer></script>
 
 </body>
 
